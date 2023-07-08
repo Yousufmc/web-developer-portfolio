@@ -1,0 +1,14 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+nav{
+  display: flex;
+}
+.text-primary{
+  color:#FD6E0A
+}
+ul>li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
