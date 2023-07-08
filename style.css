@@ -1,44 +1,88 @@
 /* common shared style. */
-body{
-  font-family: 'Open Sans', 
-  sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
-nav{
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+/* nav related Style. */
+nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
-.text-primary{
-  color: #FD6E0A
-}
-.btn-primary{
-  background-color: #FD6E0A;
-}
-/* nav related style. */
 
-.nav-title{
+.nav-title {
   color: #181818;
   font-size: 45px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
 }
 
-nav >ul{
+nav > ul {
   display: flex;
   align-items: center;
- 
-
 }
 
-nav li{
+nav li {
   list-style: none;
   margin-right: 53px;
 }
-nav a{
+nav a {
   text-decoration: none;
   color: #474747;
 }
-.btn-primary{
-  width: 150px;
-height: 64px;
+/* header related style */
+.header {
+  background-color: #fff;
+  /* background-image: url("./images/header_bg.png"), url("./images/hardy.png"); */
+  background-image: url("./images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 0px 150px;
+}
+.btn-primary {
+  width: 150px;
+  height: 64px;
+  border: 0px;
+}
+.banner .profile-pic {
+  width: 584px;
+  height: 676px;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.bannar-description {
+  font-size: 18px;
+  font-weight: 400;
+  width: 585px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+/* main section Styles */
